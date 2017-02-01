@@ -40,7 +40,7 @@ class ImagePaletteServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['image-palette'] = $this->app->share(function()
+        $this->app['image-palette'] = $this->app->singleton(function()
         {
             return new Client;
         });
