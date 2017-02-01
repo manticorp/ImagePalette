@@ -23,7 +23,7 @@ Simply add the following to your ```composer.json``` file:
 
 ```JSON
 "require": {
-    "brianmcdo/image-palette": "^2.1"
+    "manticorp/image-palette": "^2.1"
 }
 ```
 
