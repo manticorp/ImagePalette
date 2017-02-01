@@ -1,9 +1,9 @@
 {
-    "name": "brianmcdo/image-palette",
+    "name": "manticorp/image-palette",
     "type": "library",
     "description": "Extracts colors from an image and generates a color palette against a whitelist of colors.",
     "keywords": ["image","color","palette","extractor","gd","laravel"],
-    "homepage": "https://github.com/BrianMcdo/ImagePalette",
+    "homepage": "https://github.com/manticorp/ImagePalette",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
@@ -17,10 +17,15 @@
             "name": "Gandalf the Grey",
             "homepage": "https://github.com/gandalfx",
             "role": "Developer"
+        },
+        {
+            "name": "Harry Mustoe-Playfair",
+            "homepage": "http://github.com/manticorp",
+            "role": "Developer"
         }
     ],
     "replace": {
-        "bfoxwell/image-palette": "*"
+        "brianmcdo/image-palette": "*"
     },
     "require": {
         "php": ">=5.4.0",
